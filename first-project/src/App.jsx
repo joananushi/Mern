@@ -1,5 +1,8 @@
 import { useState } from 'react'
+import React from 'react'
 import Person from './components/person'
+import PersonForm from './components/PersonForm'
+
 import './App.css'
 
 function App() {
@@ -7,16 +10,11 @@ function App() {
 
   return (
     <>
-     <div>
-      <h1>Hello World</h1>
-      <h2>Things I need to</h2>
-      <ul>
-        <li>Learn React</li>
-        <li>learn next</li>
-      </ul>
-      <Person name={'g'} age={22}/>
-      <Person name={'g'} age={44}/>
-     </div>
+    <PersonForm></PersonForm>
+    <Person name={'g'} age={22}></Person>
+      
+      <h1>---------------------------------------</h1>
+
     </>
   )
 }
