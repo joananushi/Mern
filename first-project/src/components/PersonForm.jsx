@@ -36,6 +36,7 @@ const PersonForm = () => {
         <input type="text" onChange={(e) => setConfirmpassword(e.target.value)} />
         <button type='submit'>Submit</button>
       </form>
+      
 
       <h1>Your form</h1>
       <h2>{firstName}</h2>
